@@ -13,4 +13,4 @@ RUN sdkmanager "platform-tools" "platforms;android-34" "build-tools;33.0.1"
 COPY run.sh run.sh
 RUN chmod +x run.sh
 
-ENTRYPOINT "./run.sh"
+ENTRYPOINT [ "./run.sh" ]
